@@ -1,7 +1,11 @@
+/* eslint-disable */
 
 var app = new Vue({
   el: '#app',
-  data: {
-    product: "Socks"
-  }
-})
+});
+Vue.component("test", {
+  template: `
+  <p>testing...</p>
+  `
+});
+
